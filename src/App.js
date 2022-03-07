@@ -12,9 +12,13 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
+import Nav from "./components/Nav"
+
+
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <Nav />
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
