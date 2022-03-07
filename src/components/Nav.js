@@ -1,7 +1,6 @@
 import React from "react";
 import { Avatar, Grid, GridItem, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react"
 import { Search2Icon } from "@chakra-ui/icons"
-import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
 
 function Nav() {
